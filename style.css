@@ -1,0 +1,75 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #121212;
+    color: #c2c2c2;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#tech-stack {
+    padding: 10px;
+}
+
+.badge-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+#projects {
+    padding: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.project {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.project h3 {
+    color: #61dafb;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #61dafb;
+}
+
+/* Scroll bar */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+}
