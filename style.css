@@ -7,6 +7,30 @@ body {
     padding: 0;
 }
 
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+#linkedin {
+    transform: scale(1.08);
+    transition: transform 0.3s ease;
+  }
+  
+  #linkedin:hover {
+    transform: translateY(-5px) scale(1.1);
+}
+
+#github, #resume {
+    transition: transform 0.3s ease;
+}
+
+#github:hover, #resume:hover {
+    transform: translateY(-5px) scale(1.02);
+}
+
 #tech-stack {
     padding: 10px;
 }
@@ -30,6 +54,15 @@ body {
     border: 1px solid #333;
     border-radius: 8px;
     text-align: left;
+    background-color: #1e1e1e;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 20px rgba(97, 218, 251, 0.3);
+    border-color: #61dafb;
 }
 
 .project h3 {
@@ -47,7 +80,7 @@ a:hover{
 
 /* Scroll bar */
 ::-webkit-scrollbar {
-    width: 20px;
+    width: 15px;
 }
 
 ::-webkit-scrollbar-track {
