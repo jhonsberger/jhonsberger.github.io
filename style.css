@@ -17,9 +17,9 @@ body {
 #linkedin {
     transform: scale(1.08);
     transition: transform 0.3s ease;
-  }
+}
   
-  #linkedin:hover {
+#linkedin:hover {
     transform: translateY(-5px) scale(1.1);
 }
 
